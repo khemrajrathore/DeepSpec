@@ -18,7 +18,7 @@ Default outputs:
 
 ```text
 train_datasets/perfectblend_train.jsonl
-train_datasets/qwen3_4b/perfectblend_train_regen.jsonl
+train_datasets/qwen3_4b/perfectblend_train_regen.jsonl 
 ~/.cache/deepspec/qwen3_4b_target_cache
 ```
 
