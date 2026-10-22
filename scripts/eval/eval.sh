@@ -3,7 +3,7 @@
 # Here RANK/WORLD_SIZE mean node_rank/node_count, so WORLD_SIZE=1 is a
 # single-node local run; total GPU workers come from CUDA_VISIBLE_DEVICES.
 export CUDA_VISIBLE_DEVICES=0,1,2,3
-export MASTER_ADDR=127.0.0.1
+export MASTER_ADDR=127.0.0.1 
 export MASTER_PORT=29500
 export RANK=0
 export WORLD_SIZE=1 
