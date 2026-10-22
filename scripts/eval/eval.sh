@@ -6,7 +6,7 @@ export CUDA_VISIBLE_DEVICES=0,1,2,3
 export MASTER_ADDR=127.0.0.1
 export MASTER_PORT=29500
 export RANK=0
-export WORLD_SIZE=1
+export WORLD_SIZE=1 
 
 # Match this to the target model used by the draft checkpoint.
 target_name_or_path=Qwen/Qwen3-4B
